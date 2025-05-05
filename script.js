@@ -1,11 +1,11 @@
 //your JS code here. If required.
-const parag = document.getElementById("para");
-const btn = document.getElementById("butt");
+const status = document.getElementById("status");
+const enterBtn = document.getElementById("enterBtn");
 
-btn.addEventListener("click", function () {
+enterBtn.addEventListener("click", function () {
 	const h1 = document.createElement("h1");
-	h1.id = "para";
+	h1.id = "status";
 	h1.textContent = "Entered Metaverse";
-	parag.replaceWith(h1);
+	status.replaceWith(h1);
 });
 
